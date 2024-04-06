@@ -1,5 +1,12 @@
 fn main() {
+string_from();
+}
 
+fn string_from(){
+    let mut s1 = String::from("hello");
+    s1.push_str(" world!");
+    let s2 = s1;
+    println!("{}", s1);
 }
 
 // fn test_one(x: i32) -> i32 {
